@@ -9,3 +9,103 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.btn-delete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .btn-delete button {
+    display: none; 
+  }
+  
+
+  .btn-delete:hover button {
+    display: block; 
+  }
+  
+  
+  .btn-delete button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .btn-delete:hover button:hover {
+    transform: scale(1.1);
+  }
+
+ 
+.form-tarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px; 
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.input-tarea {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+
+.input-tarea:focus {
+  border-color: #3498db;
+  outline: none; 
+}
+
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.btn-submit:hover {
+  background-color: #2980b9;
+}
+
+
+.input-tarea::placeholder {
+  color: #aaa;
+}
+
+.contador-tareas {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
